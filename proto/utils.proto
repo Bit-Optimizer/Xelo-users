@@ -1,0 +1,12 @@
+syntax = "proto3";
+package protos;
+option go_package = "pb";
+message Empty{}
+
+message Address{
+    string country =1;
+    string division = 2;
+    string city = 3;
+    string lane = 4;
+    string pin = 5;
+}
