@@ -1,0 +1,1 @@
+protoc -I=Xelo-protos --go_out=plugins=grpc:protos --go_opt=paths=source_relative Xelo-protos/user.proto Xelo-protos/utils.proto

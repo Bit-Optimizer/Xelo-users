@@ -1,0 +1,3 @@
+[submodule "Xelo-protos"]
+	path = Xelo-protos
+	url = git@github.com:Bit-Optimizer/Xelo-protos.git
