@@ -10,7 +10,7 @@ import (
 
 func ConnectToFirebase()(*firebase.App , error) {
 	
-	opt := option.WithCredentialsFile("../m2.json")
+	opt := option.WithCredentialsFile("m2.json")
 	app, err := firebase.NewApp(context.Background(), nil,opt)
 	if err != nil {
 		return nil, fmt.Errorf("error in connectiong firebase %v",err)
