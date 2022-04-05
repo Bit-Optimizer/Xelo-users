@@ -4,6 +4,8 @@ go 1.17
 
 require (
 	firebase.google.com/go v3.13.0+incompatible
+	github.com/Bit-Optimizer/Xelo-models v0.0.0-20220404174548-56ba1db776bc
+	github.com/ISTE-SC-MANIT/megatreopuz-models v0.0.0-20210214152427-4c9fc80297e4
 	github.com/joho/godotenv v1.4.0
 	go.mongodb.org/mongo-driver v1.8.4
 	google.golang.org/api v0.40.0
@@ -15,7 +17,7 @@ require (
 	cloud.google.com/go v0.75.0 // indirect
 	cloud.google.com/go/firestore v1.5.0 // indirect
 	cloud.google.com/go/storage v1.10.0 // indirect
-	github.com/Bit-Optimizer/Xelo-models v0.0.0-20220326161548-d42e16e02f32 // indirect
+	firebase.google.com/go/v4 v4.0.0 // indirect
 	github.com/go-stack/stack v1.8.0 // indirect
 	github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e // indirect
 	github.com/golang/protobuf v1.5.2 // indirect

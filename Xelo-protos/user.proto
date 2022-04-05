@@ -38,8 +38,9 @@ message LoginResponse
 }
 
 service UserService{
-    rpc registerUser(RegisterUserRequest) returns (User);
-    rpc updateUser(UpdateUserRequest) returns (User);
+    rpc registerUser(RegisterUserRequest) returns (Empty);
+    rpc updateUser(UpdateUserRequest) returns (Empty);
     rpc loginUser(Empty) returns (LoginResponse);
+    rpc getUser(Empty) returns (User);
     
 }
